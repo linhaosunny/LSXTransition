@@ -16,6 +16,8 @@
 		854A7E091E71CFD3005BC3A5 /* LSXTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DFD1E71CFD3005BC3A5 /* LSXTouchManager.m */; };
 		854A7E0A1E71CFD3005BC3A5 /* UIApplication+LSXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DFF1E71CFD3005BC3A5 /* UIApplication+LSXEvent.m */; };
 		854A7E0B1E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7E011E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.m */; };
+		854A7E101E71D47C005BC3A5 /* UIViewController+LSXTransitionExtersion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 854A7E001E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.h */; };
+		854A7E111E71D481005BC3A5 /* LSXBaseAnimation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 854A7DF91E71CFD3005BC3A5 /* LSXBaseAnimation.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				854A7E111E71D481005BC3A5 /* LSXBaseAnimation.h in CopyFiles */,
+				854A7E101E71D47C005BC3A5 /* UIViewController+LSXTransitionExtersion.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +229,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.1;
 			};
 			name = Debug;
 		};
@@ -265,7 +269,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

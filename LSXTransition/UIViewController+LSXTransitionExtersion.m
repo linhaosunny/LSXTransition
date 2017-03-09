@@ -14,6 +14,7 @@
 
 @end
 
+
 @implementation UIViewController (LSXTransitionExtersion)
 
 
@@ -30,7 +31,7 @@
     
     [self lsx_viewWillAppear: animated];
     
-    if (self.navigationController)
+    if (self.navigationController &&(self.navigationController.viewControllers.firstObject != self))
     {
         // > 恢复导航栏控制器
         [self resetNavigation];
