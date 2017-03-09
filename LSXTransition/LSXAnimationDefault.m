@@ -9,8 +9,10 @@
 #import "LSXAnimationDefault.h"
 #import "LSXBaseAnimation_Transition.h"
 
+
 @implementation LSXAnimationDefault
-/** 进场动画效果*/
+
+/** 进场动画效果 */
 - (void)push:(id<UIViewControllerContextTransitioning>)transitionContext
 {
     UIViewController *fromVC   = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
@@ -87,7 +89,6 @@
     if (fromVC.interactivePopTransition)
     {
         // > 右滑返回
-        
         [UIView animateWithDuration:duration
                               delay:0
                             options:UIViewAnimationOptionCurveLinear
@@ -124,7 +125,6 @@
     else
     {
         // > 点击返回按钮
-        
         [UIView animateWithDuration:duration
                               delay:0
              usingSpringWithDamping:1.0

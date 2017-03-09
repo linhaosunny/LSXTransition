@@ -7,7 +7,7 @@
 //
 
 #import "LSXBaseAnimation.h"
-#import "UIViewController+LSXTransitionExtersion.h"
+#import "UIViewController_LSXTransitionExtersion.h"
 
 #define kHeight [[UIScreen mainScreen] bounds].size.height
 #define kWidth [[UIScreen mainScreen] bounds].size.width

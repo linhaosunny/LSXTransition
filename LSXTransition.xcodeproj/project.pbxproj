@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		854A7C3E1E7163F9005BC3A5 /* LSXBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C3D1E7163F9005BC3A5 /* LSXBaseAnimation.m */; };
-		854A7C441E71642F005BC3A5 /* LSXAnimationOval.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C431E71642F005BC3A5 /* LSXAnimationOval.m */; };
-		854A7C571E716A4F005BC3A5 /* LSXAnimationRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C561E716A4F005BC3A5 /* LSXAnimationRound.m */; };
-		854A7C5A1E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C591E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m */; };
-		854A7C5D1E716E7F005BC3A5 /* LSXTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C5C1E716E7F005BC3A5 /* LSXTouchManager.m */; };
-		854A7C601E7171E4005BC3A5 /* LSXAnimationKuGou.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C5F1E7171E4005BC3A5 /* LSXAnimationKuGou.m */; };
-		854A7C631E717413005BC3A5 /* LSXAnimationDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C621E717413005BC3A5 /* LSXAnimationDefault.m */; };
-		854A7C661E717455005BC3A5 /* LSXAnimationNavigationDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C651E717455005BC3A5 /* LSXAnimationNavigationDiff.m */; };
-		854A7C691E717530005BC3A5 /* UIApplication+LSXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C681E717530005BC3A5 /* UIApplication+LSXEvent.m */; };
-		854A7C6A1E717803005BC3A5 /* LSXBaseAnimation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 854A7C3C1E7163F9005BC3A5 /* LSXBaseAnimation.h */; };
+		854A7E031E71CFD3005BC3A5 /* LSXAnimationDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DF01E71CFD3005BC3A5 /* LSXAnimationDefault.m */; };
+		854A7E041E71CFD3005BC3A5 /* LSXAnimationKuGou.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DF21E71CFD3005BC3A5 /* LSXAnimationKuGou.m */; };
+		854A7E051E71CFD3005BC3A5 /* LSXAnimationNavigationDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DF41E71CFD3005BC3A5 /* LSXAnimationNavigationDiff.m */; };
+		854A7E061E71CFD3005BC3A5 /* LSXAnimationOval.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DF61E71CFD3005BC3A5 /* LSXAnimationOval.m */; };
+		854A7E071E71CFD3005BC3A5 /* LSXAnimationRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DF81E71CFD3005BC3A5 /* LSXAnimationRound.m */; };
+		854A7E081E71CFD3005BC3A5 /* LSXBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DFA1E71CFD3005BC3A5 /* LSXBaseAnimation.m */; };
+		854A7E091E71CFD3005BC3A5 /* LSXTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DFD1E71CFD3005BC3A5 /* LSXTouchManager.m */; };
+		854A7E0A1E71CFD3005BC3A5 /* UIApplication+LSXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7DFF1E71CFD3005BC3A5 /* UIApplication+LSXEvent.m */; };
+		854A7E0B1E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7E011E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,32 +25,32 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				854A7C6A1E717803005BC3A5 /* LSXBaseAnimation.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		854A7C3C1E7163F9005BC3A5 /* LSXBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXBaseAnimation.h; sourceTree = "<group>"; };
-		854A7C3D1E7163F9005BC3A5 /* LSXBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXBaseAnimation.m; sourceTree = "<group>"; };
-		854A7C421E71642F005BC3A5 /* LSXAnimationOval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationOval.h; sourceTree = "<group>"; };
-		854A7C431E71642F005BC3A5 /* LSXAnimationOval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationOval.m; sourceTree = "<group>"; };
-		854A7C541E716514005BC3A5 /* LSXBaseAnimation_Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXBaseAnimation_Transition.h; sourceTree = "<group>"; };
-		854A7C551E716A4F005BC3A5 /* LSXAnimationRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationRound.h; sourceTree = "<group>"; };
-		854A7C561E716A4F005BC3A5 /* LSXAnimationRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationRound.m; sourceTree = "<group>"; };
-		854A7C581E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LSXTransitionExtersion.h"; sourceTree = "<group>"; };
-		854A7C591E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LSXTransitionExtersion.m"; sourceTree = "<group>"; };
-		854A7C5B1E716E7F005BC3A5 /* LSXTouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXTouchManager.h; sourceTree = "<group>"; };
-		854A7C5C1E716E7F005BC3A5 /* LSXTouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXTouchManager.m; sourceTree = "<group>"; };
-		854A7C5E1E7171E4005BC3A5 /* LSXAnimationKuGou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationKuGou.h; sourceTree = "<group>"; };
-		854A7C5F1E7171E4005BC3A5 /* LSXAnimationKuGou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationKuGou.m; sourceTree = "<group>"; };
-		854A7C611E717413005BC3A5 /* LSXAnimationDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationDefault.h; sourceTree = "<group>"; };
-		854A7C621E717413005BC3A5 /* LSXAnimationDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationDefault.m; sourceTree = "<group>"; };
-		854A7C641E717455005BC3A5 /* LSXAnimationNavigationDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationNavigationDiff.h; sourceTree = "<group>"; };
-		854A7C651E717455005BC3A5 /* LSXAnimationNavigationDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationNavigationDiff.m; sourceTree = "<group>"; };
-		854A7C671E717530005BC3A5 /* UIApplication+LSXEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LSXEvent.h"; sourceTree = "<group>"; };
-		854A7C681E717530005BC3A5 /* UIApplication+LSXEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LSXEvent.m"; sourceTree = "<group>"; };
+		854A7DEF1E71CFD3005BC3A5 /* LSXAnimationDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationDefault.h; sourceTree = "<group>"; };
+		854A7DF01E71CFD3005BC3A5 /* LSXAnimationDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationDefault.m; sourceTree = "<group>"; };
+		854A7DF11E71CFD3005BC3A5 /* LSXAnimationKuGou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationKuGou.h; sourceTree = "<group>"; };
+		854A7DF21E71CFD3005BC3A5 /* LSXAnimationKuGou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationKuGou.m; sourceTree = "<group>"; };
+		854A7DF31E71CFD3005BC3A5 /* LSXAnimationNavigationDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationNavigationDiff.h; sourceTree = "<group>"; };
+		854A7DF41E71CFD3005BC3A5 /* LSXAnimationNavigationDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationNavigationDiff.m; sourceTree = "<group>"; };
+		854A7DF51E71CFD3005BC3A5 /* LSXAnimationOval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationOval.h; sourceTree = "<group>"; };
+		854A7DF61E71CFD3005BC3A5 /* LSXAnimationOval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationOval.m; sourceTree = "<group>"; };
+		854A7DF71E71CFD3005BC3A5 /* LSXAnimationRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationRound.h; sourceTree = "<group>"; };
+		854A7DF81E71CFD3005BC3A5 /* LSXAnimationRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationRound.m; sourceTree = "<group>"; };
+		854A7DF91E71CFD3005BC3A5 /* LSXBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXBaseAnimation.h; sourceTree = "<group>"; };
+		854A7DFA1E71CFD3005BC3A5 /* LSXBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXBaseAnimation.m; sourceTree = "<group>"; };
+		854A7DFB1E71CFD3005BC3A5 /* LSXBaseAnimation_Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXBaseAnimation_Transition.h; sourceTree = "<group>"; };
+		854A7DFC1E71CFD3005BC3A5 /* LSXTouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXTouchManager.h; sourceTree = "<group>"; };
+		854A7DFD1E71CFD3005BC3A5 /* LSXTouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXTouchManager.m; sourceTree = "<group>"; };
+		854A7DFE1E71CFD3005BC3A5 /* UIApplication+LSXEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LSXEvent.h"; sourceTree = "<group>"; };
+		854A7DFF1E71CFD3005BC3A5 /* UIApplication+LSXEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LSXEvent.m"; sourceTree = "<group>"; };
+		854A7E001E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LSXTransitionExtersion.h"; sourceTree = "<group>"; };
+		854A7E011E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LSXTransitionExtersion.m"; sourceTree = "<group>"; };
+		854A7E021E71CFD3005BC3A5 /* UIViewController_LSXTransitionExtersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController_LSXTransitionExtersion.h; sourceTree = "<group>"; };
 		856C10CF1E71401B0007A6EC /* libLSXTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLSXTransition.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,10 +65,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		854A7DEE1E71CFD3005BC3A5 /* LSXTransition */ = {
+			isa = PBXGroup;
+			children = (
+				854A7DEF1E71CFD3005BC3A5 /* LSXAnimationDefault.h */,
+				854A7DF01E71CFD3005BC3A5 /* LSXAnimationDefault.m */,
+				854A7DF11E71CFD3005BC3A5 /* LSXAnimationKuGou.h */,
+				854A7DF21E71CFD3005BC3A5 /* LSXAnimationKuGou.m */,
+				854A7DF31E71CFD3005BC3A5 /* LSXAnimationNavigationDiff.h */,
+				854A7DF41E71CFD3005BC3A5 /* LSXAnimationNavigationDiff.m */,
+				854A7DF51E71CFD3005BC3A5 /* LSXAnimationOval.h */,
+				854A7DF61E71CFD3005BC3A5 /* LSXAnimationOval.m */,
+				854A7DF71E71CFD3005BC3A5 /* LSXAnimationRound.h */,
+				854A7DF81E71CFD3005BC3A5 /* LSXAnimationRound.m */,
+				854A7DF91E71CFD3005BC3A5 /* LSXBaseAnimation.h */,
+				854A7DFA1E71CFD3005BC3A5 /* LSXBaseAnimation.m */,
+				854A7DFB1E71CFD3005BC3A5 /* LSXBaseAnimation_Transition.h */,
+				854A7DFC1E71CFD3005BC3A5 /* LSXTouchManager.h */,
+				854A7DFD1E71CFD3005BC3A5 /* LSXTouchManager.m */,
+				854A7DFE1E71CFD3005BC3A5 /* UIApplication+LSXEvent.h */,
+				854A7DFF1E71CFD3005BC3A5 /* UIApplication+LSXEvent.m */,
+				854A7E001E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.h */,
+				854A7E011E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.m */,
+				854A7E021E71CFD3005BC3A5 /* UIViewController_LSXTransitionExtersion.h */,
+			);
+			path = LSXTransition;
+			sourceTree = "<group>";
+		};
 		856C10C61E71401B0007A6EC = {
 			isa = PBXGroup;
 			children = (
-				856C10FD1E71620C0007A6EC /* LSXTransition */,
+				854A7DEE1E71CFD3005BC3A5 /* LSXTransition */,
 				856C10D01E71401B0007A6EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,32 +106,6 @@
 				856C10CF1E71401B0007A6EC /* libLSXTransition.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		856C10FD1E71620C0007A6EC /* LSXTransition */ = {
-			isa = PBXGroup;
-			children = (
-				854A7C5B1E716E7F005BC3A5 /* LSXTouchManager.h */,
-				854A7C5C1E716E7F005BC3A5 /* LSXTouchManager.m */,
-				854A7C3C1E7163F9005BC3A5 /* LSXBaseAnimation.h */,
-				854A7C3D1E7163F9005BC3A5 /* LSXBaseAnimation.m */,
-				854A7C551E716A4F005BC3A5 /* LSXAnimationRound.h */,
-				854A7C561E716A4F005BC3A5 /* LSXAnimationRound.m */,
-				854A7C421E71642F005BC3A5 /* LSXAnimationOval.h */,
-				854A7C431E71642F005BC3A5 /* LSXAnimationOval.m */,
-				854A7C5E1E7171E4005BC3A5 /* LSXAnimationKuGou.h */,
-				854A7C5F1E7171E4005BC3A5 /* LSXAnimationKuGou.m */,
-				854A7C611E717413005BC3A5 /* LSXAnimationDefault.h */,
-				854A7C621E717413005BC3A5 /* LSXAnimationDefault.m */,
-				854A7C641E717455005BC3A5 /* LSXAnimationNavigationDiff.h */,
-				854A7C651E717455005BC3A5 /* LSXAnimationNavigationDiff.m */,
-				854A7C671E717530005BC3A5 /* UIApplication+LSXEvent.h */,
-				854A7C681E717530005BC3A5 /* UIApplication+LSXEvent.m */,
-				854A7C581E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.h */,
-				854A7C591E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m */,
-				854A7C541E716514005BC3A5 /* LSXBaseAnimation_Transition.h */,
-			);
-			path = LSXTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,15 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854A7C3E1E7163F9005BC3A5 /* LSXBaseAnimation.m in Sources */,
-				854A7C661E717455005BC3A5 /* LSXAnimationNavigationDiff.m in Sources */,
-				854A7C5D1E716E7F005BC3A5 /* LSXTouchManager.m in Sources */,
-				854A7C631E717413005BC3A5 /* LSXAnimationDefault.m in Sources */,
-				854A7C601E7171E4005BC3A5 /* LSXAnimationKuGou.m in Sources */,
-				854A7C441E71642F005BC3A5 /* LSXAnimationOval.m in Sources */,
-				854A7C571E716A4F005BC3A5 /* LSXAnimationRound.m in Sources */,
-				854A7C691E717530005BC3A5 /* UIApplication+LSXEvent.m in Sources */,
-				854A7C5A1E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m in Sources */,
+				854A7E041E71CFD3005BC3A5 /* LSXAnimationKuGou.m in Sources */,
+				854A7E0A1E71CFD3005BC3A5 /* UIApplication+LSXEvent.m in Sources */,
+				854A7E051E71CFD3005BC3A5 /* LSXAnimationNavigationDiff.m in Sources */,
+				854A7E061E71CFD3005BC3A5 /* LSXAnimationOval.m in Sources */,
+				854A7E071E71CFD3005BC3A5 /* LSXAnimationRound.m in Sources */,
+				854A7E031E71CFD3005BC3A5 /* LSXAnimationDefault.m in Sources */,
+				854A7E091E71CFD3005BC3A5 /* LSXTouchManager.m in Sources */,
+				854A7E081E71CFD3005BC3A5 /* LSXBaseAnimation.m in Sources */,
+				854A7E0B1E71CFD3005BC3A5 /* UIViewController+LSXTransitionExtersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

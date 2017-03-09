@@ -8,17 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^resetNavigationOptionBlock)(void);
+
 @interface UIViewController (LSXTransitionExtersion)
 
 // > 出场交互动画
 @property(nonatomic,strong,readonly)UIPercentDrivenInteractiveTransition *interactivePopTransition;
 
-// > 屏幕快照
-@property (nonatomic, strong) UIView *snapshot;
-
-// > 屏幕顶部快照
-@property(nonatomic,strong) UIView *topSnapshot;
-
-// > 屏幕视图快照
-@property(nonatomic,strong) UIView *viewSnapshot;
+// > 恢复导航栏控制器操作
+@property (nonatomic ,copy) resetNavigationOptionBlock block;
 @end

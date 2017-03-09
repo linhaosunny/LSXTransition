@@ -10,11 +10,13 @@
 #import <objc/message.h>
 #import "LSXTouchManager.h"
 
+
 @implementation UIApplication (LSXEvent)
 
 + (void)load{
     Method originMethod = class_getInstanceMethod(NSClassFromString(@"UIApplication"), @selector(sendEvent:));
     Method newMethod    = class_getInstanceMethod(NSClassFromString(@"UIApplication"), @selector(lsx_sendEvent:));
+    
     
     method_exchangeImplementations(originMethod, newMethod);
 }

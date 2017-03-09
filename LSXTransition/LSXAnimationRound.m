@@ -167,7 +167,9 @@
             fromVC.view.layer.mask = nil;
             fromVC.view.hidden = NO;
             [self.transitionContext completeTransition:NO];
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"wtk_cancelPop" object:nil];
+            
+            // > 恢复导航控制器
+            [toVC handCancelPop];
         }
         if (self.tabbarFlag)
         {

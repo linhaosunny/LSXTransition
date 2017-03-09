@@ -90,6 +90,19 @@
     return animation;
 }
 
+/** 父类进场函数*/
+- (void)push:(id<UIViewControllerContextTransitioning>)transitionContext{
+}
+
+/** 父类出场函数*/
+- (void)pop:(id<UIViewControllerContextTransitioning>)transitionContext{
+}
+/** 父类结束进场函数*/
+- (void)pushEnded{
+}
+/** 父类结束出场函数*/
+- (void)popEnded{
+}
 #pragma mark - <UIViewControllerAnimationTransition>
 /** 转场动画时长 */
 - (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext
