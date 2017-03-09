@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		854A7C3E1E7163F9005BC3A5 /* LSXBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C3D1E7163F9005BC3A5 /* LSXBaseAnimation.m */; };
+		854A7C441E71642F005BC3A5 /* LSXAnimationOval.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C431E71642F005BC3A5 /* LSXAnimationOval.m */; };
+		854A7C571E716A4F005BC3A5 /* LSXAnimationRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C561E716A4F005BC3A5 /* LSXAnimationRound.m */; };
+		854A7C5A1E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C591E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m */; };
+		854A7C5D1E716E7F005BC3A5 /* LSXTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C5C1E716E7F005BC3A5 /* LSXTouchManager.m */; };
+		854A7C601E7171E4005BC3A5 /* LSXAnimationKuGou.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C5F1E7171E4005BC3A5 /* LSXAnimationKuGou.m */; };
+		854A7C631E717413005BC3A5 /* LSXAnimationDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C621E717413005BC3A5 /* LSXAnimationDefault.m */; };
+		854A7C661E717455005BC3A5 /* LSXAnimationNavigationDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C651E717455005BC3A5 /* LSXAnimationNavigationDiff.m */; };
+		854A7C691E717530005BC3A5 /* UIApplication+LSXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A7C681E717530005BC3A5 /* UIApplication+LSXEvent.m */; };
+		854A7C6A1E717803005BC3A5 /* LSXBaseAnimation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 854A7C3C1E7163F9005BC3A5 /* LSXBaseAnimation.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		856C10CD1E71401B0007A6EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				854A7C6A1E717803005BC3A5 /* LSXBaseAnimation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		854A7C3C1E7163F9005BC3A5 /* LSXBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXBaseAnimation.h; sourceTree = "<group>"; };
+		854A7C3D1E7163F9005BC3A5 /* LSXBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXBaseAnimation.m; sourceTree = "<group>"; };
+		854A7C421E71642F005BC3A5 /* LSXAnimationOval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationOval.h; sourceTree = "<group>"; };
+		854A7C431E71642F005BC3A5 /* LSXAnimationOval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationOval.m; sourceTree = "<group>"; };
+		854A7C541E716514005BC3A5 /* LSXBaseAnimation_Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXBaseAnimation_Transition.h; sourceTree = "<group>"; };
+		854A7C551E716A4F005BC3A5 /* LSXAnimationRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationRound.h; sourceTree = "<group>"; };
+		854A7C561E716A4F005BC3A5 /* LSXAnimationRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationRound.m; sourceTree = "<group>"; };
+		854A7C581E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LSXTransitionExtersion.h"; sourceTree = "<group>"; };
+		854A7C591E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LSXTransitionExtersion.m"; sourceTree = "<group>"; };
+		854A7C5B1E716E7F005BC3A5 /* LSXTouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXTouchManager.h; sourceTree = "<group>"; };
+		854A7C5C1E716E7F005BC3A5 /* LSXTouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXTouchManager.m; sourceTree = "<group>"; };
+		854A7C5E1E7171E4005BC3A5 /* LSXAnimationKuGou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationKuGou.h; sourceTree = "<group>"; };
+		854A7C5F1E7171E4005BC3A5 /* LSXAnimationKuGou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationKuGou.m; sourceTree = "<group>"; };
+		854A7C611E717413005BC3A5 /* LSXAnimationDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationDefault.h; sourceTree = "<group>"; };
+		854A7C621E717413005BC3A5 /* LSXAnimationDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationDefault.m; sourceTree = "<group>"; };
+		854A7C641E717455005BC3A5 /* LSXAnimationNavigationDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSXAnimationNavigationDiff.h; sourceTree = "<group>"; };
+		854A7C651E717455005BC3A5 /* LSXAnimationNavigationDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSXAnimationNavigationDiff.m; sourceTree = "<group>"; };
+		854A7C671E717530005BC3A5 /* UIApplication+LSXEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LSXEvent.h"; sourceTree = "<group>"; };
+		854A7C681E717530005BC3A5 /* UIApplication+LSXEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LSXEvent.m"; sourceTree = "<group>"; };
+		856C10CF1E71401B0007A6EC /* libLSXTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLSXTransition.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		856C10CC1E71401B0007A6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		856C10C61E71401B0007A6EC = {
+			isa = PBXGroup;
+			children = (
+				856C10FD1E71620C0007A6EC /* LSXTransition */,
+				856C10D01E71401B0007A6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		856C10D01E71401B0007A6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				856C10CF1E71401B0007A6EC /* libLSXTransition.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		856C10FD1E71620C0007A6EC /* LSXTransition */ = {
+			isa = PBXGroup;
+			children = (
+				854A7C5B1E716E7F005BC3A5 /* LSXTouchManager.h */,
+				854A7C5C1E716E7F005BC3A5 /* LSXTouchManager.m */,
+				854A7C3C1E7163F9005BC3A5 /* LSXBaseAnimation.h */,
+				854A7C3D1E7163F9005BC3A5 /* LSXBaseAnimation.m */,
+				854A7C551E716A4F005BC3A5 /* LSXAnimationRound.h */,
+				854A7C561E716A4F005BC3A5 /* LSXAnimationRound.m */,
+				854A7C421E71642F005BC3A5 /* LSXAnimationOval.h */,
+				854A7C431E71642F005BC3A5 /* LSXAnimationOval.m */,
+				854A7C5E1E7171E4005BC3A5 /* LSXAnimationKuGou.h */,
+				854A7C5F1E7171E4005BC3A5 /* LSXAnimationKuGou.m */,
+				854A7C611E717413005BC3A5 /* LSXAnimationDefault.h */,
+				854A7C621E717413005BC3A5 /* LSXAnimationDefault.m */,
+				854A7C641E717455005BC3A5 /* LSXAnimationNavigationDiff.h */,
+				854A7C651E717455005BC3A5 /* LSXAnimationNavigationDiff.m */,
+				854A7C671E717530005BC3A5 /* UIApplication+LSXEvent.h */,
+				854A7C681E717530005BC3A5 /* UIApplication+LSXEvent.m */,
+				854A7C581E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.h */,
+				854A7C591E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m */,
+				854A7C541E716514005BC3A5 /* LSXBaseAnimation_Transition.h */,
+			);
+			path = LSXTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		856C10CE1E71401B0007A6EC /* LSXTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856C10D81E71401B0007A6EC /* Build configuration list for PBXNativeTarget "LSXTransition" */;
+			buildPhases = (
+				856C10CB1E71401B0007A6EC /* Sources */,
+				856C10CC1E71401B0007A6EC /* Frameworks */,
+				856C10CD1E71401B0007A6EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSXTransition;
+			productName = LSXTransition;
+			productReference = 856C10CF1E71401B0007A6EC /* libLSXTransition.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		856C10C71E71401B0007A6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LSX;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "李莎鑫";
+				TargetAttributes = {
+					856C10CE1E71401B0007A6EC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H2H2868WN7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 856C10CA1E71401B0007A6EC /* Build configuration list for PBXProject "LSXTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 856C10C61E71401B0007A6EC;
+			productRefGroup = 856C10D01E71401B0007A6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				856C10CE1E71401B0007A6EC /* LSXTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		856C10CB1E71401B0007A6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A7C3E1E7163F9005BC3A5 /* LSXBaseAnimation.m in Sources */,
+				854A7C661E717455005BC3A5 /* LSXAnimationNavigationDiff.m in Sources */,
+				854A7C5D1E716E7F005BC3A5 /* LSXTouchManager.m in Sources */,
+				854A7C631E717413005BC3A5 /* LSXAnimationDefault.m in Sources */,
+				854A7C601E7171E4005BC3A5 /* LSXAnimationKuGou.m in Sources */,
+				854A7C441E71642F005BC3A5 /* LSXAnimationOval.m in Sources */,
+				854A7C571E716A4F005BC3A5 /* LSXAnimationRound.m in Sources */,
+				854A7C691E717530005BC3A5 /* UIApplication+LSXEvent.m in Sources */,
+				854A7C5A1E716CCB005BC3A5 /* UIViewController+LSXTransitionExtersion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		856C10D61E71401B0007A6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		856C10D71E71401B0007A6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		856C10D91E71401B0007A6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H2H2868WN7;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		856C10DA1E71401B0007A6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H2H2868WN7;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		856C10CA1E71401B0007A6EC /* Build configuration list for PBXProject "LSXTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856C10D61E71401B0007A6EC /* Debug */,
+				856C10D71E71401B0007A6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856C10D81E71401B0007A6EC /* Build configuration list for PBXNativeTarget "LSXTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856C10D91E71401B0007A6EC /* Debug */,
+				856C10DA1E71401B0007A6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 856C10C71E71401B0007A6EC /* Project object */;
+}
