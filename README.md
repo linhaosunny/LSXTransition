@@ -26,7 +26,6 @@ fromViewController:(UIViewController *)fromVC
 
 toViewController:(UIViewController *)toVC
 {
-//    WTKBaseAnimation *animation = [[WTKBaseAnimation alloc]init];
 if (fromVC.interactivePopTransition)
 {
 
